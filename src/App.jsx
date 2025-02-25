@@ -1,9 +1,14 @@
+import { BrowserRouter } from 'react-router-dom'
+import { AppRoutes } from './routes'
 
 function App() {
 
   return (
     <>
-      <h1>teste 2000</h1>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+
     </>
   )
 }
