@@ -15,6 +15,8 @@ import btn from '../assets/imgs/Button.svg'
 export function Main() {
     return (
         <>
+
+        {/*  CENTRO DA PÁGINA */}
             <section>
                 <header>
                     <span>novidade</span>
@@ -37,10 +39,44 @@ export function Main() {
                     <figure><img src={img12} /></figure>
                 </div>
             </section>
+
+            {/* BOTÃO PARA IR PRA BAIXO */}
             <section>
                 <button>
                     <img src={btn} />
                 </button>
+            </section>
+
+            {/*  PARTE DE BAIXO DA PPÁGINA */}
+            <section>
+                <header>
+                    <span>receitas</span>
+                    <h2>Confira as últimas receitas</h2>
+                    <p>De uma olhada nas receitas mais amadas</p>
+                </header>
+
+                <div>
+                    <div>
+                        <header>
+                            <div>
+                                <span>em alta</span>
+                                <h3>cappuccino</h3>
+                            </div>
+
+                            <p>Extraordinario - 4/4</p>
+                            
+                        </header>
+                        <p>Uma bebida ideial para os amantes de doce e cremosidade.</p>
+                        <div>
+                            <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
+                            <span>André Silveira</span>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                
             </section>
             
         </>
