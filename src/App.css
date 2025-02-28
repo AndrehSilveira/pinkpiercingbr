@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Teko:wght@600&display=swap');
 
 * {
   margin: 0;
@@ -51,4 +51,215 @@ nav {
 .github {
   color: #fff2e7;
   font-weight: 600;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.standart{
+  background: #181012;
+}
+
+.hero{
+  max-width: 1120px;
+  height: 60vh;
+  align-items: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 6rem;
+
+  padding: 0rem 2rem;
+  margin: auto;
+
+  overflow: clip;
+}
+
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.destaque{
+  font-family: Epilogue;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.marrom {
+  color: #a45a49;
+}
+
+.amarelo {
+  color: #e7a80e;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+hr {
+  border-color: #a45a49;
+}
+
+.hero-subtitle {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-imagens-container{
+  max-width: 45%;
+  column-count: 4;
+  column-gap: 1rem;
+  margin: -1rem;
+}
+
+.hero-imagens-container > figure > img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.img_bigger{
+  height: 150px;
+}
+
+.button-container {
+  width: 100%;
+  max-width: 1120px;
+
+}
+
+.clientes {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 1120px;
+  padding: 3rem 2rem;
+  margin: auto
+  
+}
+
+.clientes-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.clientes-title{
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff2e7;
+}
+
+.clientes-subtitle {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 40;
+}
+
+.clientes-card-container{
+  padding: 0rem 10rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.clientes-card {
+  background: #241a1c;
+  padding: 2rem;
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+  margin-top: 2rem;
+}
+
+.clientes-card-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.clientes-card-header-details{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.clientes-title {
+  color: #fff2e7;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.clientes-grade {
+  color: #756a67;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.client-description {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.client-person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.client-person > img{
+  border-radius: 20rem;
+  width: 1.5rem;
+}
+
+.client-name {
+  color: #c7bab3;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+footer{
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background: #23181a;
+}
+
+.footer-copy{
+  color: #fff2e7;
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.footer-author{
+  color: rgba(255,242,231,0.50);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
 }
