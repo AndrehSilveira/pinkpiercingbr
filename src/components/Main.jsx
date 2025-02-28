@@ -65,7 +65,7 @@ export function Main() {
                                     <h3 class="clientes-title">Maravilhoso!</h3>
                                 </div>
 
-                                <p class="clientes-grade">Extraordinario - 4/4</p>
+                                <p class="clientes-grade">Extraordinario - 5/5</p>
                                 
                             </header>
                             <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
@@ -79,10 +79,10 @@ export function Main() {
                             <header class="clientes-card-header">
                                 <div class="clientes-card-header-details">
                                     <span class="destaque amarelo">19/01/2025</span>
-                                    <h3 class="clientes-title">Ambiente higienizado!</h3>
+                                    <h3 class="clientes-title">Ambiente higienizado</h3>
                                 </div>
 
-                                <p class="clientes-grade">Ótimo - 3/4</p>
+                                <p class="clientes-grade">Ótimo - 4/5</p>
                                 
                             </header>
                             <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
@@ -99,14 +99,14 @@ export function Main() {
                         <div class="clientes-card">
                             <header class="clientes-card-header">
                                 <div class="clientes-card-header-details">
-                                    <span class="destaque amarelo">25/02/2025</span>
-                                    <h3 class="clientes-title">Maravilhoso!</h3>
+                                    <span class="destaque amarelo">29/01/2025</span>
+                                    <h3 class="clientes-title">Impecável</h3>
                                 </div>
 
-                                <p class="clientes-grade">Extraordinario - 4/4</p>
+                                <p class="clientes-grade">Extraordinario - 5/5</p>
                                 
                             </header>
-                            <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
+                            <p class="client-description">Atenção e limpeza sem iguais na região. Já quero colocar mais!</p>
                             <div class="client-person">
                                 <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
                                 <span class="client-name">André Silveira</span>
@@ -116,14 +116,14 @@ export function Main() {
                         <div class="clientes-card">
                             <header class="clientes-card-header">
                                 <div class="clientes-card-header-details">
-                                    <span class="destaque amarelo">19/01/2025</span>
-                                    <h3 class="clientes-title">Ambiente higienizado!</h3>
+                                    <span class="destaque amarelo">12/01/2025</span>
+                                    <h3 class="clientes-title">Ameeeeeei</h3>
                                 </div>
 
-                                <p class="clientes-grade">Ótimo - 3/4</p>
+                                <p class="clientes-grade">Extraordinário - 5/5</p>
                                 
                             </header>
-                            <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
+                            <p class="client-description">Coloquei o piercing e ficou perfeito, do jeito que eu queria! Super recomendo!</p>
                             <div class="client-person">
                                 <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
                                 <span class="client-name">Vancaster Santos</span>
