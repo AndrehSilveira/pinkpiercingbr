@@ -57,39 +57,80 @@ export function Main() {
                 </header>
 
                 <div class="clientes-card-container">
-                    <div class="clientes-card">
-                        <header class="clientes-card-header">
-                            <div class="clientes-card-header-details">
-                                <span class="destaque amarelo">25/02/2025</span>
-                                <h3 class="clientes-title">Maravilhoso!</h3>
-                            </div>
+                    <div className="clientes-card-container-rows">
+                        <div class="clientes-card">
+                            <header class="clientes-card-header">
+                                <div class="clientes-card-header-details">
+                                    <span class="destaque amarelo">25/02/2025</span>
+                                    <h3 class="clientes-title">Maravilhoso!</h3>
+                                </div>
 
-                            <p class="clientes-grade">Extraordinario - 4/4</p>
-                            
-                        </header>
-                        <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
-                        <div class="client-person">
-                            <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
-                            <span class="client-name">André Silveira</span>
+                                <p class="clientes-grade">Extraordinario - 4/4</p>
+                                
+                            </header>
+                            <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
+                            <div class="client-person">
+                                <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
+                                <span class="client-name">André Silveira</span>
+                            </div>
+                        </div>
+
+                        <div class="clientes-card">
+                            <header class="clientes-card-header">
+                                <div class="clientes-card-header-details">
+                                    <span class="destaque amarelo">19/01/2025</span>
+                                    <h3 class="clientes-title">Ambiente higienizado!</h3>
+                                </div>
+
+                                <p class="clientes-grade">Ótimo - 3/4</p>
+                                
+                            </header>
+                            <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
+                            <div class="client-person">
+                                <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
+                                <span class="client-name">Vancaster Santos</span>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="clientes-card">
-                        <header class="clientes-card-header">
-                            <div class="clientes-card-header-details">
-                                <span class="destaque amarelo">19/01/2025</span>
-                                <h3 class="clientes-title">Ambiente higienizado!</h3>
-                            </div>
 
-                            <p class="clientes-grade">Ótimo - 3/4</p>
-                            
-                        </header>
-                        <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
-                        <div class="client-person">
-                            <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
-                            <span class="client-name">Vancaster Santos</span>
+
+                    <div className="clientes-card-container-rows">
+                        <div class="clientes-card">
+                            <header class="clientes-card-header">
+                                <div class="clientes-card-header-details">
+                                    <span class="destaque amarelo">25/02/2025</span>
+                                    <h3 class="clientes-title">Maravilhoso!</h3>
+                                </div>
+
+                                <p class="clientes-grade">Extraordinario - 4/4</p>
+                                
+                            </header>
+                            <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
+                            <div class="client-person">
+                                <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
+                                <span class="client-name">André Silveira</span>
+                            </div>
+                        </div>
+
+                        <div class="clientes-card">
+                            <header class="clientes-card-header">
+                                <div class="clientes-card-header-details">
+                                    <span class="destaque amarelo">19/01/2025</span>
+                                    <h3 class="clientes-title">Ambiente higienizado!</h3>
+                                </div>
+
+                                <p class="clientes-grade">Ótimo - 3/4</p>
+                                
+                            </header>
+                            <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
+                            <div class="client-person">
+                                <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
+                                <span class="client-name">Vancaster Santos</span>
+                            </div>
                         </div>
                     </div>
+                    
 
                     
                 </div>

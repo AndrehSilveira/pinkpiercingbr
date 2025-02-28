@@ -169,6 +169,14 @@ hr {
 }
 
 .clientes-card-container{
+  /* padding: 0rem 10rem; */
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  gap: 2rem;
+}
+
+.clientes-card-container-row{
   padding: 0rem 10rem;
   display: flex;
   flex-direction: row;
