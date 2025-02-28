@@ -51,23 +51,23 @@ export function Main() {
             {/*  PARTE DE BAIXO DA PÁGINA */}
             <section class="clientes">
                 <header class="clientes-header">
-                    <span class="destaque marrom">receitas</span>
-                    <h2 class="clientes-title">Confira as últimas receitas</h2>
-                    <p class="clientes-subtitle">De uma olhada nas receitas mais amadas</p>
+                    <span class="destaque marrom">avaliaçãoes</span>
+                    <h2 class="clientes-title">Confira as últimas avaliações dos nossos clientes</h2>
+                    <p class="clientes-subtitle">Opinião dos nossos clientes mais recentes:</p>
                 </header>
 
                 <div class="clientes-card-container">
                     <div class="clientes-card">
                         <header class="clientes-card-header">
                             <div class="clientes-card-header-details">
-                                <span class="destaque amarelo">em alta</span>
-                                <h3 class="clientes-title">cappuccino</h3>
+                                <span class="destaque amarelo">25/02/2025</span>
+                                <h3 class="clientes-title">Maravilhoso!</h3>
                             </div>
 
                             <p class="clientes-grade">Extraordinario - 4/4</p>
                             
                         </header>
-                        <p class="client-description">Uma bebida ideial para os amantes de doce e cremosidade.</p>
+                        <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
                         <div class="client-person">
                             <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
                             <span class="client-name">André Silveira</span>
@@ -77,17 +77,17 @@ export function Main() {
                     <div class="clientes-card">
                         <header class="clientes-card-header">
                             <div class="clientes-card-header-details">
-                                <span class="destaque amarelo">em alta</span>
-                                <h3 class="clientes-title">cappuccino</h3>
+                                <span class="destaque amarelo">19/01/2025</span>
+                                <h3 class="clientes-title">Ambiente higienizado!</h3>
                             </div>
 
-                            <p class="clientes-grade">Extraordinario - 4/4</p>
+                            <p class="clientes-grade">Ótimo - 3/4</p>
                             
                         </header>
-                        <p class="client-description">Uma bebida ideial para os amantes de doce e cremosidade.</p>
+                        <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
                         <div class="client-person">
                             <img src='https://avatars.githubusercontent.com/u/27991210?v=4' />
-                            <span class="client-name">André Silveira</span>
+                            <span class="client-name">Vancaster Santos</span>
                         </div>
                     </div>
 
