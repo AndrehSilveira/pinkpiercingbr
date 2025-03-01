@@ -33,7 +33,7 @@ nav {
   justify-content: space-between;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   nav {
     flex-direction: column;
     padding: 1.5rem 2rem;
@@ -106,16 +106,18 @@ main {
   border-radius: 0.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   .hero {
     grid-template-columns: 1fr; /* Para telas pequenas, a hero section se torna de uma coluna */
   }
 
   .hero-imagens-container {
+    display: none;
     grid-template-columns: 1fr 1fr; /* 2 colunas para as imagens em telas pequenas */
   }
 
   .img_bigger {
+    display: none;
     height: 150px; /* Ajusta o tamanho das imagens */
   }
 }
@@ -186,7 +188,7 @@ hr {
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   .clientes-card-container {
     flex-direction: column;
     align-items: center;
@@ -292,7 +294,7 @@ footer {
   background: #23181a;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 970px) {
   footer {
     padding: 2rem;
   }
