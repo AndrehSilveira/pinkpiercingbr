@@ -28,11 +28,24 @@ nav {
   max-width: 1120px;
   margin: auto;
   padding: 1.5rem 10rem;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+  }
+
+  .menu {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 
 .logo {
   font-family: Teko;
@@ -62,27 +75,51 @@ main {
   background: #181012;
 }
 
-.hero{
+.hero {
   max-width: 1120px;
   height: 60vh;
   align-items: center;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid; /* Mudamos para grid para melhor controle */
+  grid-template-columns: 1fr 1fr; /* 2 colunas para o conteúdo e as imagens */
   gap: 6rem;
-
   padding: 0rem 2rem;
   margin: auto;
-
   overflow: clip;
 }
 
-.hero-content{
+.hero-content {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
+
+.hero-imagens-container {
+  max-width: 100%; /* Garantir que a imagem ocupe toda a largura */
+  display: grid; /* Grid para as imagens */
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas em telas grandes */
+  gap: 1rem;
+  margin: -1rem;
+}
+
+.hero-imagens-container > figure > img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr; /* Para telas pequenas, a hero section se torna de uma coluna */
+  }
+
+  .hero-imagens-container {
+    grid-template-columns: 1fr 1fr; /* 2 colunas para as imagens em telas pequenas */
+  }
+
+  .img_bigger {
+    height: 150px; /* Ajusta o tamanho das imagens */
+  }
+}
+
 
 .destaque{
   font-family: Epilogue;
@@ -109,24 +146,6 @@ hr {
   border-color: #a45a49;
 }
 
-.hero-subtitle {
-  color: #c7bab3;
-  font-family: Inter;
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-.hero-imagens-container{
-  max-width: 45%;
-  column-count: 4;
-  column-gap: 1rem;
-  margin: -1rem;
-}
-
-.hero-imagens-container > figure > img {
-  width: 100%;
-  border-radius: 0.5rem;
-}
 
 .img_bigger{
   height: 200px;
@@ -139,15 +158,46 @@ hr {
 
 }
 
+
 .clientes {
   display: flex;
   flex-direction: column;
-
   max-width: 1120px;
   padding: 3rem 2rem;
-  margin: auto
-  
+  margin: auto;
 }
+
+.clientes-card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap; /* Permite que as cards se movam para a próxima linha em telas pequenas */
+  justify-content: space-between;
+}
+
+.clientes-card {
+  background: #241a1c;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-basis: 29rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .clientes-card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .clientes-card {
+    flex-basis: 100%; /* Cards ocupam 100% da largura em telas pequenas */
+    margin-top: 1rem;
+  }
+}
+
 
 .clientes-header {
   display: flex;
@@ -169,13 +219,7 @@ hr {
   font-weight: 40;
 }
 
-.clientes-card-container{
-  /* padding: 0rem 10rem; */
-  display: flex;
-  flex-direction: row;
-  /* flex-wrap: wrap; */
-  gap: 2rem;
-}
+
 
 .clientes-card-container-row{
   padding: 0rem 10rem;
@@ -185,17 +229,6 @@ hr {
   gap: 2rem;
 }
 
-.clientes-card {
-  background: #241a1c;
-  padding: 2rem;
-  border-radius: 0.5rem;
-
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  flex-basis: 29rem;
-  margin-top: 2rem;
-}
 
 .clientes-card-header {
   display: flex;
@@ -250,7 +283,7 @@ hr {
   font-weight: 600;
 }
 
-footer{
+footer {
   padding: 4rem;
   display: flex;
   flex-direction: column;
@@ -258,6 +291,17 @@ footer{
   gap: 0.5rem;
   background: #23181a;
 }
+
+@media (max-width: 768px) {
+  footer {
+    padding: 2rem;
+  }
+
+  .footer-copy, .footer-author {
+    text-align: center; /* Centraliza o texto em telas pequenas */
+  }
+}
+
 
 .footer-copy{
   color: #fff2e7;
