@@ -51,7 +51,7 @@ export function Main() {
             {/*  PARTE DE BAIXO DA PÁGINA */}
             <section class="clientes">
                 <header class="clientes-header">
-                    <span class="destaque marrom">avaliaçãoes</span>
+                    <span class="destaque marrom">avaliações</span>
                     <h2 class="clientes-title">Confira as últimas avaliações dos nossos clientes</h2>
                     <p class="clientes-subtitle">Opinião dos nossos clientes mais recentes:</p>
                 </header>
@@ -65,7 +65,7 @@ export function Main() {
                                     <h3 class="clientes-title">Maravilhoso!</h3>
                                 </div>
 
-                                <p class="clientes-grade">Extraordinario - 5/5</p>
+                                <p class="clientes-grade">5/5</p>
                                 
                             </header>
                             <p class="client-description">Atendimento excelente e de alta qualidade!.</p>
@@ -82,7 +82,7 @@ export function Main() {
                                     <h3 class="clientes-title">Ambiente higienizado</h3>
                                 </div>
 
-                                <p class="clientes-grade">Ótimo - 4/5</p>
+                                <p class="clientes-grade">4/5</p>
                                 
                             </header>
                             <p class="client-description">Atendimento incrível e ambiente totalmente higienizado e seguro.</p>
@@ -103,7 +103,7 @@ export function Main() {
                                     <h3 class="clientes-title">Impecável</h3>
                                 </div>
 
-                                <p class="clientes-grade">Extraordinario - 5/5</p>
+                                <p class="clientes-grade">5/5</p>
                                 
                             </header>
                             <p class="client-description">Atenção e limpeza sem iguais na região. Já quero colocar mais!</p>
@@ -120,7 +120,7 @@ export function Main() {
                                     <h3 class="clientes-title">Ameeeeeei</h3>
                                 </div>
 
-                                <p class="clientes-grade">Extraordinário - 5/5</p>
+                                <p class="clientes-grade">5/5</p>
                                 
                             </header>
                             <p class="client-description">Coloquei o piercing e ficou perfeito, do jeito que eu queria! Super recomendo!</p>

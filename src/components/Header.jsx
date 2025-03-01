@@ -9,7 +9,7 @@ export function Header(){
                     <li><a>Novidades</a></li>
                     <li><a>Contato</a></li>
                 </ul>
-                <a class="github" href="https://www.instagram.com/pink.piercing.br/" target="blank">Instagram</a>
+                <a class="instagram" href="https://www.instagram.com/pink.piercing.br/" target="blank">Instagram</a>
                 
             </nav>
 

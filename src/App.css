@@ -24,6 +24,20 @@ ul {
   list-style: none;
 }
 
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  color: #fff2e780;
+}
+
+.instagram {
+  color: #fff2e7;
+  font-weight: 600;
+}
+
+
 nav {
   max-width: 1120px;
   margin: auto;
@@ -33,18 +47,6 @@ nav {
   justify-content: space-between;
 }
 
-@media (max-width: 970px) {
-  nav {
-    flex-direction: column;
-    padding: 1.5rem 2rem;
-  }
-
-  .menu {
-    gap: 1rem;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 
 
 .logo {
@@ -52,18 +54,6 @@ nav {
   font-size: 2rem;
   font-weight: 600px;
   text-transform: uppercase;
-}
-
-.menu {
-  display: flex;
-  flex-direction: row;
-  gap: 1.5rem;
-  color: #fff2e780;
-}
-
-.github {
-  color: #fff2e7;
-  font-weight: 600;
 }
 
 main {
@@ -106,19 +96,67 @@ main {
   border-radius: 0.5rem;
 }
 
+
+h1 {
+  font-family: Montserrat;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
 @media (max-width: 970px) {
+
+  nav {
+    padding: 1.5rem 2rem;
+  }
+
   .hero {
     grid-template-columns: 1fr; /* Para telas pequenas, a hero section se torna de uma coluna */
   }
 
   .hero-imagens-container {
     display: none;
-    grid-template-columns: 1fr 1fr; /* 2 colunas para as imagens em telas pequenas */
+  }
+
+  .menu {
+    gap: 1rem;
+    align-items: center;
   }
 
   .img_bigger {
     display: none;
-    height: 150px; /* Ajusta o tamanho das imagens */
+  }
+
+  .destaque {
+    font-size: 200;
+  }
+
+  h1{
+    font-size: 2.5rem;
+  }
+
+
+}
+
+
+@media (max-width: 700px){
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero{
+    height: 40vh;
+    padding-top: 1rem;
+  }
+
+  .menu {
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .instagram {
+    padding-top: 1em;
   }
 }
 
@@ -138,11 +176,6 @@ main {
   color: #e7a80e;
 }
 
-h1 {
-  font-family: Montserrat;
-  font-size: 3.5rem;
-  font-weight: 800;
-}
 
 hr {
   border-color: #a45a49;
@@ -294,6 +327,7 @@ footer {
   background: #23181a;
 }
 
+
 @media (max-width: 970px) {
   footer {
     padding: 2rem;
@@ -303,7 +337,6 @@ footer {
     text-align: center; /* Centraliza o texto em telas pequenas */
   }
 }
-
 
 .footer-copy{
   color: #fff2e7;
@@ -318,3 +351,4 @@ footer {
   font-size: 1rem;
   font-weight: 500;
 }
+
